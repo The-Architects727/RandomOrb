@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "randomcommandmod",
+  "id": "randomboxmod",
   "version": "${version}",
 
-  "name": "Random Item Give Mod",
-  "description": "Adds a command that gives a random item to the specified player",
+  "name": "Random Box Mod",
+  "description": "Adds an item that gives a random item when used",
   "authors": [
     "architects"
   ],
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.architects.RandomItemCommandMod.RandomItemCommandMod"
+      "net.architects.RandomBoxMod.RandomBoxMod"
     ]
   },
   "mixins": [
@@ -29,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
-    "minecraft": "~1.19.2",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "suggests": {
